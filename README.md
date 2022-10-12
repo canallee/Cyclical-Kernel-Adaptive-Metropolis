@@ -2,7 +2,7 @@
 
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache-2.svg)](https://opensource.org/licenses/Apache-2.0)
 
-cKAM, cyclical Kernel Adaptive Metropolis, is a gradient-free adaptive MCMC algorithm which incorporates a cyclical stepsize scheme to allow control for exploration and adaptive sampling. The paper can be found in https://arxiv.org/pdf/2206.14421.pdf.
+We introduce cKAM, cyclical Kernel Adaptive Metropolis, a gradient-free adaptive MCMC algorithm which incorporates a cyclical stepsize scheme to allow control for exploration and adaptive sampling. The paper can be found in https://arxiv.org/pdf/2206.14421.pdf.
 
 ![cKAM](cKAM.png "Title") 
 
@@ -11,8 +11,8 @@ In addition to cKAM, we implement following adaptive MCMC algorithms:
 - **RW**: Random-Walk Metropolis–Hastings with isotropic gaussian proposal
 - **AM**: Adaptive Metropolis with a learned covariance matrix and fixed stepsize
 - **RBAM**: Rao-Blackwellised AM algorithm
-- **GAM**:  Adaptive Metropolis with a learned covariancematrix and a global stepsize
-- **KAM**: Our cyclical Kernel Adaptive Metropolis
+- **GAM**: Adaptive Metropolis with a learned covariancematrix and a global stepsize
+- **KAM**: Kernel Adaptive Metropolis
 
 For the details of these algorithms, please refer to our paper. 
 
