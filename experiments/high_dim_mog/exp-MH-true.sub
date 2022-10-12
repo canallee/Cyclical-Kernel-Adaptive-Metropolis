@@ -1,0 +1,11 @@
+#! /bin/bash
+#SBATCH -N 1
+#SBATCH -n 2
+#SBATCH --requeue
+#SBATCH --partition=default_partition
+#SBATCH -o MH.out
+#SBATCH -e MH.err
+#SBATCH --mem=64000
+#SBATCH -t 20:00:00
+
+python3 MH-true.py

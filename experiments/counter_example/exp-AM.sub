@@ -1,0 +1,11 @@
+#! /bin/bash
+#SBATCH -N 1
+#SBATCH -n 1
+#SBATCH --requeue
+#SBATCH --partition=default_partition
+#SBATCH -o AM.out
+#SBATCH -e AM.err
+#SBATCH --mem=10000
+#SBATCH -t 20:00:00
+
+python3 AM.py
